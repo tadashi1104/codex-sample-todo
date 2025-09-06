@@ -1,0 +1,6 @@
+version = 1
+model = "high"
+hide_agent_reasoning = true
+network_access = "enabled"
+web_search = true
+model_reasoning_effort = "high"

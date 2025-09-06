@@ -1,0 +1,14 @@
+{
+  "name": "monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run -ws build",
+    "dev": "npm run -ws --if-present --parallel dev",
+    "dev:backend": "npm run -w @app/backend start:dev",
+    "dev:frontend": "npm run -w @app/frontend dev"
+  }
+}
